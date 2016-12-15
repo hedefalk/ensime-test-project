@@ -1,7 +1,7 @@
 lazy val commonSettings = Seq(
   organization := "se.hedefalk",
   version := "0.1-SNAPSHOT",
-  scalaVersion := "2.11.4"
+  scalaVersion := "2.11.7"
 )
 
 lazy val root = (project in file(".")).
@@ -12,5 +12,5 @@ lazy val root = (project in file(".")).
       "org.scalaz" %% "scalaz-core" % "7.1.1",
       "net.liftweb" %% "lift-webkit" % "2.6" % "compile"
     )
-
   )
+  

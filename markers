@@ -1,0 +1,701 @@
+{
+  "callId": 2,
+  "payload": {
+    "typehint": "ImplicitInfos",
+    "infos": [
+      {
+        "params": [
+          {
+            "name": "y",
+            "localName": "y",
+            "declPos": {
+              "typehint": "OffsetSourcePosition",
+              "file": "/Users/viktor/dev/projects/ensime-test-project/src/main/scala/Foo.scala",
+              "offset": 246
+            },
+            "type": {
+              "name": "Int",
+              "fullName": "scala.Int",
+              "typehint": "BasicTypeInfo",
+              "typeId": 1,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "isCallable": false,
+            "ownerTypeId": 3
+          }
+        ],
+        "typehint": "ImplicitParamInfo",
+        "fun": {
+          "name": "curried",
+          "localName": "curried",
+          "declPos": {
+            "typehint": "OffsetSourcePosition",
+            "file": "/Users/viktor/dev/projects/ensime-test-project/src/main/scala/Foo.scala",
+            "offset": 189
+          },
+          "type": {
+            "resultType": {
+              "name": "Int",
+              "fullName": "scala.Int",
+              "typehint": "BasicTypeInfo",
+              "typeId": 1,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "name": "(x: Int)(implicit y: Int)Int",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "x",
+                    {
+                      "name": "Int",
+                      "fullName": "scala.Int",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 1,
+                      "typeArgs": [],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Class"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              },
+              {
+                "params": [
+                  [
+                    "y",
+                    {
+                      "name": "Int",
+                      "fullName": "scala.Int",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 1,
+                      "typeArgs": [],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Class"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": true
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 2
+          },
+          "isCallable": true,
+          "ownerTypeId": 3
+        },
+        "funIsImplicit": false,
+        "end": 273,
+        "start": 263
+      },
+      {
+        "params": [
+          {
+            "name": "optionInstance",
+            "localName": "optionInstance",
+            "declPos": {
+              "typehint": "OffsetSourcePosition",
+              "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/scalaz/std/Option.scala",
+              "offset": 249
+            },
+            "type": {
+              "name": "<refinement>",
+              "fullName": "scalaz.std.OptionInstances$<refinement>",
+              "typehint": "BasicTypeInfo",
+              "typeId": 14,
+              "outerTypeId": 13,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "isCallable": false,
+            "ownerTypeId": 13
+          }
+        ],
+        "typehint": "ImplicitParamInfo",
+        "fun": {
+          "name": "apply",
+          "localName": "apply",
+          "declPos": {
+            "typehint": "OffsetSourcePosition",
+            "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/scalaz/syntax/ApplicativeBuilder.scala",
+            "offset": 166
+          },
+          "type": {
+            "resultType": {
+              "name": "M",
+              "fullName": "scalaz.syntax.M",
+              "typehint": "BasicTypeInfo",
+              "typeId": 11,
+              "typeArgs": [
+                {
+                  "name": "C",
+                  "fullName": "scalaz.syntax.C",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 7,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Nil"
+                  }
+                }
+              ],
+              "members": [],
+              "declAs": {
+                "typehint": "Nil"
+              }
+            },
+            "name": "[C](f: (A, B) => C)(implicit ap: scalaz.Apply[M])M[C]",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "f",
+                    {
+                      "name": "Function2",
+                      "fullName": "scala.Function2",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 4,
+                      "typeArgs": [
+                        {
+                          "name": "A",
+                          "fullName": "scalaz.syntax.A",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 5,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        },
+                        {
+                          "name": "B",
+                          "fullName": "scalaz.syntax.B",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 6,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        },
+                        {
+                          "name": "C",
+                          "fullName": "scalaz.syntax.C",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 7,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Trait"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              },
+              {
+                "params": [
+                  [
+                    "ap",
+                    {
+                      "name": "Apply",
+                      "fullName": "scalaz.Apply",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 8,
+                      "typeArgs": [
+                        {
+                          "name": "M",
+                          "fullName": "scalaz.syntax.M",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 9,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Trait"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": true
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 10
+          },
+          "isCallable": true,
+          "ownerTypeId": 12
+        },
+        "funIsImplicit": false,
+        "end": 333,
+        "start": 302
+      },
+      {
+        "params": [
+          {
+            "name": "optionInstance",
+            "localName": "optionInstance",
+            "declPos": {
+              "typehint": "OffsetSourcePosition",
+              "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/scalaz/std/Option.scala",
+              "offset": 249
+            },
+            "type": {
+              "name": "<refinement>",
+              "fullName": "scalaz.std.OptionInstances$<refinement>",
+              "typehint": "BasicTypeInfo",
+              "typeId": 14,
+              "outerTypeId": 13,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "isCallable": false,
+            "ownerTypeId": 13
+          }
+        ],
+        "typehint": "ImplicitParamInfo",
+        "fun": {
+          "name": "ToApplyOps",
+          "localName": "ToApplyOps",
+          "declPos": {
+            "typehint": "OffsetSourcePosition",
+            "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/scalaz/syntax/ApplySyntax.scala",
+            "offset": 1568
+          },
+          "type": {
+            "resultType": {
+              "name": "ApplyOps",
+              "fullName": "scalaz.syntax.ApplyOps",
+              "typehint": "BasicTypeInfo",
+              "typeId": 20,
+              "typeArgs": [
+                {
+                  "name": "F",
+                  "fullName": "scalaz.syntax.F",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 18,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Nil"
+                  }
+                },
+                {
+                  "name": "A",
+                  "fullName": "scalaz.syntax.A",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 16,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Nil"
+                  }
+                }
+              ],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "name": "[F[_], A](v: F[A])(implicit F0: scalaz.Apply[F])scalaz.syntax.ApplyOps[F,A]",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "v",
+                    {
+                      "name": "F",
+                      "fullName": "scalaz.syntax.F",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 15,
+                      "typeArgs": [
+                        {
+                          "name": "A",
+                          "fullName": "scalaz.syntax.A",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 16,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Nil"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              },
+              {
+                "params": [
+                  [
+                    "F0",
+                    {
+                      "name": "Apply",
+                      "fullName": "scalaz.Apply",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 17,
+                      "typeArgs": [
+                        {
+                          "name": "F",
+                          "fullName": "scalaz.syntax.F",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 18,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Trait"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": true
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 19
+          },
+          "isCallable": true,
+          "ownerTypeId": 21
+        },
+        "funIsImplicit": true,
+        "end": 310,
+        "start": 303
+      },
+      {
+        "typehint": "ImplicitConversionInfo",
+        "start": 303,
+        "end": 310,
+        "fun": {
+          "name": "ToApplyOps",
+          "localName": "ToApplyOps",
+          "declPos": {
+            "typehint": "OffsetSourcePosition",
+            "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/scalaz/syntax/ApplySyntax.scala",
+            "offset": 1568
+          },
+          "type": {
+            "resultType": {
+              "name": "ApplyOps",
+              "fullName": "scalaz.syntax.ApplyOps",
+              "typehint": "BasicTypeInfo",
+              "typeId": 20,
+              "typeArgs": [
+                {
+                  "name": "F",
+                  "fullName": "scalaz.syntax.F",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 18,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Nil"
+                  }
+                },
+                {
+                  "name": "A",
+                  "fullName": "scalaz.syntax.A",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 16,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Nil"
+                  }
+                }
+              ],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "name": "[F[_], A](v: F[A])(implicit F0: scalaz.Apply[F])scalaz.syntax.ApplyOps[F,A]",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "v",
+                    {
+                      "name": "F",
+                      "fullName": "scalaz.syntax.F",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 15,
+                      "typeArgs": [
+                        {
+                          "name": "A",
+                          "fullName": "scalaz.syntax.A",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 16,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Nil"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              },
+              {
+                "params": [
+                  [
+                    "F0",
+                    {
+                      "name": "Apply",
+                      "fullName": "scalaz.Apply",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 17,
+                      "typeArgs": [
+                        {
+                          "name": "F",
+                          "fullName": "scalaz.syntax.F",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 18,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Trait"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": true
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 19
+          },
+          "isCallable": true,
+          "ownerTypeId": 21
+        }
+      },
+      {
+        "params": [
+          {
+            "name": "stringTransform",
+            "localName": "stringTransform",
+            "type": {
+              "name": "CanBind",
+              "fullName": "net.liftweb.util.CanBind",
+              "typehint": "BasicTypeInfo",
+              "typeId": 28,
+              "typeArgs": [
+                {
+                  "name": "String",
+                  "fullName": "java.lang.String",
+                  "typehint": "BasicTypeInfo",
+                  "typeId": 29,
+                  "typeArgs": [],
+                  "members": [],
+                  "declAs": {
+                    "typehint": "Class"
+                  }
+                }
+              ],
+              "members": [],
+              "declAs": {
+                "typehint": "Trait"
+              }
+            },
+            "isCallable": false,
+            "ownerTypeId": 30
+          }
+        ],
+        "typehint": "ImplicitParamInfo",
+        "fun": {
+          "name": "#>",
+          "localName": "#>",
+          "type": {
+            "resultType": {
+              "name": "CssSel",
+              "fullName": "net.liftweb.util.CssSel",
+              "typehint": "BasicTypeInfo",
+              "typeId": 26,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Trait"
+              }
+            },
+            "name": "[T](it: => T)(implicit computer: net.liftweb.util.CanBind[T])net.liftweb.util.CssSel",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "it",
+                    {
+                      "name": "<byname>",
+                      "fullName": "scala.<byname>",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 22,
+                      "typeArgs": [
+                        {
+                          "name": "T",
+                          "fullName": "net.liftweb.util.T",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 23,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Class"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              },
+              {
+                "params": [
+                  [
+                    "computer",
+                    {
+                      "name": "CanBind",
+                      "fullName": "net.liftweb.util.CanBind",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 24,
+                      "typeArgs": [
+                        {
+                          "name": "T",
+                          "fullName": "net.liftweb.util.T",
+                          "typehint": "BasicTypeInfo",
+                          "typeId": 23,
+                          "typeArgs": [],
+                          "members": [],
+                          "declAs": {
+                            "typehint": "Nil"
+                          }
+                        }
+                      ],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Trait"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": true
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 25
+          },
+          "isCallable": true,
+          "ownerTypeId": 27
+        },
+        "funIsImplicit": false,
+        "end": 382,
+        "start": 356
+      },
+      {
+        "typehint": "ImplicitConversionInfo",
+        "start": 356,
+        "end": 373,
+        "fun": {
+          "name": "strToCssBindPromoter",
+          "localName": "strToCssBindPromoter",
+          "declPos": {
+            "typehint": "OffsetSourcePosition",
+            "file": "/Users/viktor/dev/projects/ensime-test-project/.ensime_cache/dep-src/source-jars/net/liftweb/util/BindHelpers.scala",
+            "offset": 47948
+          },
+          "type": {
+            "resultType": {
+              "name": "ToCssBindPromoter",
+              "fullName": "net.liftweb.util.ToCssBindPromoter",
+              "typehint": "BasicTypeInfo",
+              "typeId": 27,
+              "typeArgs": [],
+              "members": [],
+              "declAs": {
+                "typehint": "Class"
+              }
+            },
+            "name": "(str: String)net.liftweb.util.ToCssBindPromoter",
+            "paramSections": [
+              {
+                "params": [
+                  [
+                    "str",
+                    {
+                      "name": "String",
+                      "fullName": "java.lang.String",
+                      "typehint": "BasicTypeInfo",
+                      "typeId": 29,
+                      "typeArgs": [],
+                      "members": [],
+                      "declAs": {
+                        "typehint": "Class"
+                      }
+                    }
+                  ]
+                ],
+                "isImplicit": false
+              }
+            ],
+            "typehint": "ArrowTypeInfo",
+            "typeId": 31
+          },
+          "isCallable": true,
+          "ownerTypeId": 32
+        }
+      }
+    ]
+  }
+}
